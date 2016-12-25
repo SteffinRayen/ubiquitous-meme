@@ -1,2 +1,3 @@
 num = int(input())
-print(num*(num+1)/2)
+if num >=0:
+    print(num*(num+1)/2)
