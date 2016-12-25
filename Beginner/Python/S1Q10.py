@@ -1,2 +1,5 @@
 num = int(input())
-print(len(str(num)))
+if num >= 0:
+    print(len(str(num)))
+else:
+    print(len(str(num))-1)
